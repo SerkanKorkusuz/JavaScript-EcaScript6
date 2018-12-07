@@ -1,1 +1,1 @@
-# JavaScript-EcaScript6
+# JavaScript-EcmaScript6
