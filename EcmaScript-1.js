@@ -1,7 +1,6 @@
-const javascript_bender = "serkan korkusuz";
+const last_javascript_bender = "serkan korkusuz";
 
 arr = [1, 2, 3, 4, 5, 6];
-
 arr2 = arr.map((num) => {return num * 2;});
 arr2;
 
@@ -28,5 +27,4 @@ var obj = {
         }, 1000)
     }
 }
-
 obj.increment()
