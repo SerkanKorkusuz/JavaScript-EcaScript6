@@ -28,3 +28,19 @@ var obj = {
     }
 }
 obj.increment()
+
+function buy (item = [1,2,3,4], amount = 1){
+    amount;
+    console.log(item);
+}
+
+buy("egg", 6);
+
+
+function myFunc() {
+    var arr = Array.prototype.slice.call(arguments);
+    console.log(arr);
+}
+
+myFunc(1, 2, 3, 4, 5, 6, "hello", 44, "apple", {});
+
