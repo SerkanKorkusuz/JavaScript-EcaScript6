@@ -50,3 +50,10 @@ function myFunc2(...arr){
 
 myFunc2(1, 2, 3, 4, 5, 6, "hello", 44, "apple", {});
 
+function myFunc3(age, siblings, ...arr){
+    console.log(age);
+    console.log(siblings);
+    console.log(arr);
+}
+
+myFunc3(1, 2, 3, 4, 5, 6, "hello", 44, "apple", {});
