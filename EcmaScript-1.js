@@ -44,3 +44,9 @@ function myFunc() {
 
 myFunc(1, 2, 3, 4, 5, 6, "hello", 44, "apple", {});
 
+function myFunc2(...arr){
+    console.log(arr);
+}
+
+myFunc2(1, 2, 3, 4, 5, 6, "hello", 44, "apple", {});
+
