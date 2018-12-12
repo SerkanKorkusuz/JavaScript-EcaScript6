@@ -66,3 +66,11 @@ function myFunc4(){
 }
 
 myFunc4("Hello", "world");
+
+function myFunc5(...arr){
+    var args = ["<br>", ...arr, "<br>"];
+    console.log(args);
+    console.log(args.join(" "));
+}
+
+myFunc5("Hello", "world", 1, 3, 7);
