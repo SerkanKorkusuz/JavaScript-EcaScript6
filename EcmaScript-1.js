@@ -57,3 +57,12 @@ function myFunc3(age, siblings, ...arr){
 }
 
 myFunc3(1, 2, 3, 4, 5, 6, "hello", 44, "apple", {});
+
+function myFunc4(){
+    var args = Array.prototype.slice.call(arguments);
+    args = ["<br>"].concat(args).concat(["<br>"]);
+    console.log(args);
+    console.log(args.join(" "));
+}
+
+myFunc4("Hello", "world");
