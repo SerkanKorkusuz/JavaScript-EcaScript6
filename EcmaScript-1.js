@@ -74,3 +74,16 @@ function myFunc5(...arr){
 }
 
 myFunc5("Hello", "world", 1, 3, 7);
+
+const message = "how are you?";
+const chars = ["!", ...message, "!"];
+chars;
+
+
+export function add(a, b){
+    return a + b;
+}
+
+var arr2 = [2, 11];
+c = add(...arr2);
+c;
