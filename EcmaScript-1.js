@@ -86,4 +86,13 @@ export function add(a, b){
 
 var arr2 = [2, 11];
 c = add(...arr2);
+
+var arr3 = [1, 5, 7, 9];
+var arr4 = [...arr3];
+arr3[0] = 99;
+const max = Math.max(...arr3);
+arr3;
+arr4;
+max;
+
 c;
