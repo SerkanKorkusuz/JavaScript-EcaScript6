@@ -24,3 +24,9 @@ const activities = [
 
 const myMess = `I like many activities and the ones I mostly spend time for doing are ${activities.join(", ")}`;
 console.log(myMess);
+
+const activities2 = activities.map(activitiy =>  `${activities.join(", ")}!`);
+myMess2 = `I like many activities and the ones I mostly spend time for doing are ${activities2}`;
+console.log(myMess2);
+myMess3 = `I like many activities and the ones I mostly spend time for doing are ${activities}.join(", ")!`;
+console.log(myMess3);
