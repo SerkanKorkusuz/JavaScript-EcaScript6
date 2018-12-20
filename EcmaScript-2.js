@@ -40,3 +40,13 @@ function tag(strings, ...values){
 tag `Hello, I know ${name} but did not know that he was ${age} years old.`;
 const word = tag `Hello, I know ${name} but did not know that he was ${age} years old.`;
 console.log(word);
+
+function tag2(strings, ...values){
+    let message = "";
+    strings.forEach((string, index) => {
+        message += string;
+        if(index < values.length){
+            message += `<strong>${values[index]}</strong>`;
+        }
+    })
+   
