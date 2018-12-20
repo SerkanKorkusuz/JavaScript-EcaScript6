@@ -49,4 +49,8 @@ function tag2(strings, ...values){
             message += `<strong>${values[index]}</strong>`;
         }
     })
+     return message;   
+    };
+    const word2 = tag2 `Hello, I know ${name} but did not know that he was ${age} years old.`;
+    console.log(word2); 
    
