@@ -30,3 +30,13 @@ myMess2 = `I like many activities and the ones I mostly spend time for doing are
 console.log(myMess2);
 myMess3 = `I like many activities and the ones I mostly spend time for doing are ${activities}.join(", ")!`;
 console.log(myMess3);
+
+function tag(strings, ...values){
+    console.log(strings);
+    console.log(values);
+    return "heyyy";
+}
+
+tag `Hello, I know ${name} but did not know that he was ${age} years old.`;
+const word = tag `Hello, I know ${name} but did not know that he was ${age} years old.`;
+console.log(word);
