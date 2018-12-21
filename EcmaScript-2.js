@@ -54,3 +54,10 @@ function tag2(strings, ...values){
     const word2 = tag2 `Hello, I know ${name} but did not know that he was ${age} years old.`;
     console.log(word2); 
    
+function tag3(strings, ...values){
+        console.log(strings);
+        console.log(strings.raw[0]);
+    }
+
+    tag3`Hello, I know him \n but did not know that he was \n 22 years old.`;
+
