@@ -61,3 +61,13 @@ function tag3(strings, ...values){
 
     tag3`Hello, I know him \n but did not know that he was \n 22 years old.`;
 
+var firstname = "bob";
+    var lastname = "james";
+    var age = 22;
+
+    var person = {
+        firstname,
+        lastname,
+        age
+    };
+    person;
