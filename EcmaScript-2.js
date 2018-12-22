@@ -71,3 +71,13 @@ var firstname = "bob";
         age
     };
     person;
+
+var human = {
+     firstname : "jessy",
+      age : 20,
+      haveAbirthday : function(){
+       return this.age++;
+     }
+}
+human.haveAbirthday();
+human;
