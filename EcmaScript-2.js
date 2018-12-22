@@ -81,3 +81,13 @@ var human = {
 }
 human.haveAbirthday();
 human;
+
+var human2 = {
+    firstname : "jessy",
+    age : 24,
+    birthday(){
+        this.age++;
+    }
+}
+human2.birthday();
+human2;
