@@ -101,3 +101,15 @@ console.log(bri);
 
 import myUtilLib from './add'; // this brings the  "export default{...}" which is included in add.js*/
 
+var Personal = function(name, age){
+    this.name = name;
+    this.age = age;
+}
+var friend = new Personal("Tommy", 17);
+friend;
+
+Personal.prototype.jump = function() {
+    console.log("jump");
+}
+friend.jump();
+
