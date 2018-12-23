@@ -91,3 +91,13 @@ var human2 = {
 }
 human2.birthday();
 human2;
+
+/*import {add} from './add';
+import {add as myAddFunction} from '/add';
+
+const bri = add(33, 12);
+const bri2 = myAddFunction(27, 35);
+console.log(bri);
+
+import myUtilLib from './add'; // this brings the  "export default{...}" which is included in add.js*/
+
