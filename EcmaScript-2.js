@@ -113,3 +113,15 @@ Personal.prototype.jump = function() {
 }
 friend.jump();
 
+class Personal2 {
+    constructor(name, age){
+        this.name =name;
+        this.age = age;
+    }
+    jump(){
+        console.log("jump");
+    }
+}
+var friend2 = new Personal2("Tommy", 18);
+friend2;
+friend2.jump()
