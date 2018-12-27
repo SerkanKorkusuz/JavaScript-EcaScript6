@@ -8,5 +8,12 @@ class Person{
     jump(){
         console.log("jump");
     }
+throw(){
+        console.log("throw");
+    }
+    getName(){
+        return this.name;
+    }
+}
 
 #to be continued...
