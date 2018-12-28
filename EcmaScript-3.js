@@ -25,5 +25,12 @@ class Employee extends Person{
         console.log("I quite my job.");
         this.years = 0;
     }
-
+    throw(){
+        console.log("I throw.");
+        super.throw();
+    }
+    getName(){
+        return super.getName() + "!";
+    }
+}
 #to be continued...
