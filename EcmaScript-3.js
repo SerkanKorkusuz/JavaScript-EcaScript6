@@ -16,5 +16,14 @@ throw(){
     }
 }
 
+class Employee extends Person{
+    constructor(name, age, years){
+        super(name, age)
+        this.years = years;
+    }
+    quit(){
+        console.log("I quite my job.");
+        this.years = 0;
+    }
 
 #to be continued...
