@@ -39,4 +39,7 @@ friend
 friend.jump();
 friend.quit();
 friend;
+friend.throw();
+const name = friend.getName();
+name;
 #to be continued...
