@@ -33,4 +33,10 @@ class Employee extends Person{
         return super.getName() + "!";
     }
 }
+
+const friend = new Employee("Bob", 20, 7);
+friend
+friend.jump();
+friend.quit();
+friend;
 #to be continued...
