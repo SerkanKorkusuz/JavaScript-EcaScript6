@@ -42,4 +42,9 @@ friend;
 friend.throw();
 const name = friend.getName();
 name;
+
+const keys = Object.keys({a : 1});
+const values = Object.values({a : 1});
+keys;
+values;
 #to be continued...
