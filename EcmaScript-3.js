@@ -57,4 +57,8 @@ class Person2{
         person.name = name;
     }
 }
+
+const person = new Person2("Bob", 24);
+Person2.setName(person, "Michael");
+person;
 #to be continued...
