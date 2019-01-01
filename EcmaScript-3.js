@@ -47,4 +47,14 @@ const keys = Object.keys({a : 1});
 const values = Object.values({a : 1});
 keys;
 values;
+
+class Person2{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+    static setName(person, name){
+        person.name = name;
+    }
+}
 #to be continued...
