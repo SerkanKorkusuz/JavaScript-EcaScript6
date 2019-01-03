@@ -71,4 +71,9 @@ class Person3{
         return this._name;
         console.log("we are here");
     }
+    set name(name){
+        this._name = name
+    } 
+}
+
 #to be continued...
