@@ -61,4 +61,14 @@ class Person2{
 const person = new Person2("Bob", 24);
 Person2.setName(person, "Michael");
 person;
+
+class Person3{
+    constructor(name, age){
+        this._name = name;
+        this._age = age;
+    }
+    get name(){
+        return this._name;
+        console.log("we are here");
+    }
 #to be continued...
