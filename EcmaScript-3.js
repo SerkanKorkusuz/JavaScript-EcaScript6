@@ -75,5 +75,9 @@ class Person3{
         this._name = name
     } 
 }
+const person3 = new Person3("Dylan", 27);
+const name3 = person3.name;
+name3;
+
 
 #to be continued...
