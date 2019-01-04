@@ -81,5 +81,14 @@ name3;
 person3.name = "Alex";
 person3;
 
+var mylist = [1, 2, 3, 4]
+const a = mylist[0];
+const b = mylist[1];
+const c = mylist[2];
+const d = mylist[3];
+a;
+b;
+c;
+d;
 
 #to be continued...
