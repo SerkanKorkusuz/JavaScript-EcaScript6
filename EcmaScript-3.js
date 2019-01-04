@@ -78,6 +78,8 @@ class Person3{
 const person3 = new Person3("Dylan", 27);
 const name3 = person3.name;
 name3;
+person3.name = "Alex";
+person3;
 
 
 #to be continued...
