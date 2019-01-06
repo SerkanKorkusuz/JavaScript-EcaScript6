@@ -91,4 +91,10 @@ b;
 c;
 d;
 
+const [x, y, z, q, t] = mylist;
+x;
+y;
+z;
+q;
+t;
 #to be continued...
