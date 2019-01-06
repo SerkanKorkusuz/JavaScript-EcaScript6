@@ -97,4 +97,8 @@ y;
 z;
 q;
 t;
+
+const [, , r, ] = mylist;
+r;
+
 #to be continued...
