@@ -101,4 +101,11 @@ t;
 const [, , r, ] = mylist;
 r;
 
+let [e, f, g, h] = mylist;
+[g, h] = [e, f];
+e;
+f;
+g;
+h
+
 #to be continued...
