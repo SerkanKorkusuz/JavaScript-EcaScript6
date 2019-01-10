@@ -124,4 +124,7 @@ isHigh;
 numb;
 config;
 
+const [isBig, weight, ...others] = getConfig();
+others;
+
 #to be continued...
