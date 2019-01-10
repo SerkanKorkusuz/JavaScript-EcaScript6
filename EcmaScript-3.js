@@ -108,4 +108,14 @@ f;
 g;
 h
 
+function getConfig(){
+    return [
+        true,
+        99,
+        101,
+        33,
+        4
+    ];
+}
+
 #to be continued...
