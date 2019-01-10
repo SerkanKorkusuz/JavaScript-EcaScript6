@@ -118,4 +118,10 @@ function getConfig(){
     ];
 }
 
+const [isHigh, numb] = getConfig();
+const config = getConfig();
+isHigh;
+numb;
+config;
+
 #to be continued...
