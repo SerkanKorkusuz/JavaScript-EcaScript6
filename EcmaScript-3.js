@@ -135,4 +135,8 @@ function getOn(config){
     amount = config[1];
 }
 
+getOn([true, 20]);
+isOn;
+amount;
+
 #to be continued...
