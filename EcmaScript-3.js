@@ -148,4 +148,18 @@ function getConfig2(){
     };
 }
 
+const {
+    aa,
+    bb,
+    cc,
+    dd,
+    ee,
+} = getConfig2();
+
+aa;
+bb;
+cc;
+dd;
+ee;
+
 #to be continued...
