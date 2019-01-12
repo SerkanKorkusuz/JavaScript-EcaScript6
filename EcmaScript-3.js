@@ -138,5 +138,14 @@ function getOn(config){
 getOn([true, 20]);
 isOn;
 amount;
+function getConfig2(){
+    return {
+        aa : true,
+        bb : 99,
+        cc : 101,
+        dd : 33,
+        ee : 4
+    };
+}
 
 #to be continued...
