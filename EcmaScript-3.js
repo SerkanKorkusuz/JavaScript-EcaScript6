@@ -127,4 +127,12 @@ config;
 const [isBig, weight, ...others] = getConfig();
 others;
 
+var isOn = false;
+var amount = 10;
+
+function getOn(config){
+    isOn = config[0];
+    amount = config[1];
+}
+
 #to be continued...
